@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
 Author: 
 Date:   
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -13,6 +13,9 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
+You should make sure that the script element that links to the jQuery library files comes before others because the files execute in order that they appear. 
+So if you have the element that does not contain your files first it will not display them on the web page it will only portary the original functions from the .js and not the changes or additions you have made to it.  
+
 
 
 
@@ -20,6 +23,8 @@ Why should you ensure that the script element that links to the jQuery library f
 Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
+
+You should avoid using jQuery in a project if you don't absolutely need it because it runs slower than just JavaScript by itself, and may require a function to be run more than once to achieve the desired result. 
 
 
 
@@ -31,7 +36,7 @@ Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
 
-
+Every jQuery statement starts with a $.
 
 
 
@@ -39,3 +44,9 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+A Content Delivery Network is a network of many servers that retrieve a request from many servers located around the location that the request was made from.
+One advantage of using a CDN is a faster load time. This happens because the CDN makes sure that once a file is requested that it is served from the server closest to the user who requested the file.
+Another advantage of a CDN is that because many sites use this hosted jQuery that once you use it, it gets stored in the cache of your computer meaning that it will not have to be downloaded again.
+A third advantage of a CDN is because it is hosted by a bigger company like google or microsoft that they have a higher capacity for availability. Meaning that it decreases the lag time and jumps in media being played on the internet.
+A fourth adavantage of using a CDN is less stress on a server. This is because a CDN is made up of a system of many servers that are all over and can be used together to pull information rather than just having one server do all the work.
