@@ -1,7 +1,7 @@
 ************************************************************************
 Project Name:  Recipe Display Application  --  Project Quiz
-Author: 
-Date:   
+Author: Hannah Brock
+Date: July 16th, 2015  
 Participation Assignment (25 points)
 ************************************************************************
 
